@@ -1,5 +1,5 @@
 body {
-    background: rgb(166, 190, 192);
+    background: rgb(140, 150, 180);
     color: rgb(45, 45, 45);
     padding: 10px;
     font-family: arial;
@@ -16,6 +16,7 @@ nav {
    margin-bottom: 20px;
     display: flex;
     padding: 10px;
+    border-radius: 30px;
 }
 h1 {
     display: flex;
@@ -38,8 +39,9 @@ a {
 
 /* main container area beneath menu */
 main {
-    background: rgb(190, 207, 233);
+    background: rgb(192, 207, 229);
     display: flex;
+    border-radius: 30px;
 }
 .sidebar {
     margin-right: 25px;
@@ -47,6 +49,7 @@ main {
 }
 .sidebar-img {
     width: 200px;
+    border-radius: 30px;
 }
 .content {
     flex: 1;
@@ -55,8 +58,9 @@ main {
 
 /* portfolio styles */
 #interests {
-    border: 4px rgb(145, 143, 143) ridge;
+    border: 4px rgb(171, 188, 216) ridge;
     padding: 8px;
+    border-radius: 30px;
 }
 h2, h3 {
     margin: 0px;
